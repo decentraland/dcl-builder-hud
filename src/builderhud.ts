@@ -855,7 +855,7 @@ class BuilderHUD {
         this.modeLabel.positionX = -30
         this.modeLabel.paddingLeft = 0
         this.modeLabel.fontSize = 12
-        this.modeLabel.fontWeight = 'bold'
+        //this.modeLabel.fontWeight = 'bold'
         this.modeLabel.isPointerBlocker = false
         this.modeLabel.hTextAlign = 'center'
 
@@ -890,7 +890,7 @@ class BuilderHUD {
         this.snapLabel.paddingBottom = 12
         this.snapLabel.paddingLeft = 0
         this.snapLabel.fontSize = 12
-        this.snapLabel.fontWeight = 'bold'
+        //this.snapLabel.fontWeight = 'bold'
         this.snapLabel.hTextAlign = "center"
         this.snapLabel.isPointerBlocker = false
 

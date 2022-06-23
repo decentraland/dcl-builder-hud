@@ -1,6 +1,6 @@
 {
-  "name": "dcl-builder-hud",
-  "version": "1.0.0",
+  "name": "@dcl/builder-hud",
+  "version": "1.0.1",
   "description": "Dcl SDK Library",
   "main": "./dist/index.js",
   "scripts": {
