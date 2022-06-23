@@ -14,7 +14,7 @@ To use any of the helpers provided by this library:
 1. Install this library as an npm package. Run this command in your scene's project folder:
 
    ```
-   npm install dcl-builder-hud
+   npm install @dcl/builder-hud
    ```
    
 
@@ -23,7 +23,7 @@ To use any of the helpers provided by this library:
   code
 
 ```
-import { hud } from "dcl-builder-hud"
+import { hud } from "@dcl/builder-hud"
 ```
   
 - Make sure your entities have a "name" for them. This will make it easier to choose which entity you are modifying in the BuilderHUD tool. Naming an entity is easy; pass a string value "name" into the Entity(). Below, we are naming our entity "Box".
