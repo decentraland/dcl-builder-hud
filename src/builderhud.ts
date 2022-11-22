@@ -378,6 +378,17 @@ class BuilderHUD {
         engine.addSystem(this.movingSystem)
     }
 
+    showInProduction(){
+        hud.uiMinimizedContainer.visible = true
+        engine.addEntity(this.selectionPointer)
+    }
+
+    hideInProduction(){
+        hud.uiMinimizedContainer.visible =false
+        hud.uiMaximizedContainer.visible = false
+        engine.removeEntity(this.selectionPointer)
+    }
+
     setDefaultParent(defaultParent:Entity) {
         this.defaultParent = defaultParent
     }
